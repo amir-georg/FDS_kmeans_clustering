@@ -1,0 +1,22 @@
+Package: kmeansClustering
+Type: Package
+Title: This package provides tools for performing and visualizing k-means clustering.
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Amir", "George",
+      email = "amirgeorge222@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: 
+	This package includes two main functions: kmeans_clustering(), which takes a numeric data frame and the desired number of clusters (k) as input and returns the results of the k-means 				
+	clustering algorithm. The second function is the plot_clusters(), which takes the original data and the output of kmeans_clustering() to generate a scatter plot visualizing the clusters and 
+	their centers.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
